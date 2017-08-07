@@ -11,7 +11,7 @@ Android: Bloquear El Boton Back
 
 * Activamos dos *banderas* y finalizamos la actividad con *finish()*
 
- ```
+ ```java
                         try{
     
                             Intent intent = new Intent(MainActivity.this, MapsActivity.class);
@@ -28,7 +28,7 @@ Android: Bloquear El Boton Back
  
  * En el siguiente activity agregamos los métodos: *onBackPressed* y *onKeyDown* para bloquear el boton.
  
- ```
+ ```java
  public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
  
      // Share Info
